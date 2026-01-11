@@ -1,0 +1,14 @@
+server:
+  port: 8081
+
+logging:
+  level:
+    root: INFO
+    org.example: DEBUG
+  file:
+    name: logs/task-management.log
+
+spring:
+  main:
+    banner-mode: "console"
+
